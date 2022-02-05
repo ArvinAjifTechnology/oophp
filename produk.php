@@ -5,6 +5,8 @@
 // Komik
 class Produk
 {
+    public $judul,
+        $penulis;
 }
 
 $produk1 = new Produk();
