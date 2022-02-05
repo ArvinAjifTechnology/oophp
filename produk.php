@@ -6,7 +6,9 @@
 class Produk
 {
     public $judul,
-        $penulis;
+        $penulis,
+        $penerbit,
+        $harga;
 }
 
 $produk1 = new Produk();
