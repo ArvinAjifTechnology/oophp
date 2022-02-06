@@ -17,10 +17,14 @@ class Produk
 
 // $produk2 = new Produk();
 // $produk2->judul = "uncharted";
+// $produk2->penulis = "Siapapun";
+// $produk2->penerbit = "uncharted";
+// $produk2->judul = "uncharted";
 // var_dump($produk2);
 
 $produk3 = new Produk();
 $produk3->judul = "Naruto";
-$Produk3->penulis = "Masashi Kisimoto";
+$produk3->penulis = "Masashi Kisimoto";
 $produk3->penerbit = "Shonen Jump";
 $produk3->harga = 30000;
+var_dump($produk3);
