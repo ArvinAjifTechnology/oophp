@@ -34,3 +34,5 @@ $produk3->penerbit = "Shonen Jump";
 $produk3->harga = 30000;
 
 echo "Komik : $produk3->penulis, $produk3->penerbit";
+echo "<br>";
+echo $produk3->sayHello();
