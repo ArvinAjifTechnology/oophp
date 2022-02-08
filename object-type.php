@@ -38,3 +38,6 @@ $produk2 = new Produk("Uncharted", "Neil Drucmann", "Sony Computer", 250000);
 echo "Komik : " . $produk1->getLabel();
 echo "<br>";
 echo "Game : " . $produk2->getLabel();
+
+$infoProduk1 = new CetakInfoProduk();
+echo $infoProduk1->cetak($produk1);
