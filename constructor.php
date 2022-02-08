@@ -9,23 +9,16 @@ class Produk
         $penulis = "penulis",
         $penerbit = "penerbit",
         $harga = 0;
-
+    public function __construct()
+    {
+        echo "Hello Wolrd!";
+    }
     public function getLabel()
     {
         return "$this->penulis, $this->penerbit";
     }
 }
 
-// $produk1 = new Produk();
-// $produk1->judul = "Naruto";
-// var_dump($produk1);
-
-// $produk2 = new Produk();
-// $produk2->judul = "uncharted";
-// $produk2->penulis = "Siapapun";
-// $produk2->penerbit = "uncharted";
-// $produk2->judul = "uncharted";
-// var_dump($produk2);
 
 $produk3 = new Produk();
 $produk3->judul = "Naruto";
