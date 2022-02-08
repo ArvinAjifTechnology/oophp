@@ -9,9 +9,12 @@ class Produk
         $penulis = "penulis",
         $penerbit = "penerbit",
         $harga = 0;
-    public function __construct()
+    public function __construct($judul, $penulis, $penerbit, $harga)
     {
-        echo "Hello Wolrd!";
+        $this->judul = $judul;
+        $this->penerbit = $penerbit;
+        $this->penulis = $penulis;
+        $this->harga = $harga;
     }
     public function getLabel()
     {
