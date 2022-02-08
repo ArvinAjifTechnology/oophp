@@ -23,6 +23,15 @@ class Produk
 }
 
 
+class CetakInfoProduk
+{
+    public function cetak()
+    {
+        $str = "";
+    }
+}
+
+
 $produk1 = new Produk("Naruto", "Masashi Kisimoto", "Shonen Jump", 30000);
 $produk2 = new Produk("Uncharted", "Neil Drucmann", "Sony Computer", 250000);
 
